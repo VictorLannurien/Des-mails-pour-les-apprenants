@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trombino-TRIOCOM</title>
+	<link rel="stylesheet" type="text/css" href="../static/css/simplonstrap.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/perso.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/photos.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+<script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head>
+<body>
+<div class="nav">
+	<ul>
+		<li class="collapse"><a>☰</a></li>
+		<li><a href="{{ url_for('accueil') }}">Accueil</a></li>
+		<li><a>Le trombino</a></li>
+	</ul>
+</div><div class="h50p"></div>
+<div class="containflex dflexcenter ">
+	<div class="marg10 flip-container">
+		<div class="flipper">
+			<div id="tof1" class="front bloc_perso">
+
+			</div>
+			<div class="back bloc_perso flexcol dflexcenter dflexsp-b alignItems">
+				<div class="centert"><h3>{{ liste_utilisateurs[0].nom}} {{liste_utilisateurs[0].prenom }}</h3><h5>Etudiant</h5></div>
+				<fieldset>
+				<legend>Mail de contact :</legend>
+				<a href="mailto:{{ liste_utilisateurs[0].mail}}" class="btn btn-primary">mail</a>
+				</fieldset>
+			</div>
+		</div>
+	</div>
+	<div class="marg10 flip-container">
+		<div class="flipper">
+			<div id="tof2" class="front bloc_perso">
+			</div>
+			<div class="back bloc_perso flexcol dflexcenter dflexsp-b alignItems">
+				<div class="centert"><h3>{{ liste_utilisateurs[1].nom}} {{liste_utilisateurs[1].prenom }}</h3><h5>Etudiant</h5></div>
+				<fieldset>
+				<legend>Mail de contact :</legend>
+					<a href="mailto:{{ liste_utilisateurs[1].mail}}" class="btn btn-primary">mail</a>
+				</fieldset>
+				</div>
+		</div>
+	</div>
+	<div class="marg10 flip-container">
+		<div class="flipper">
+			<div id="tof3" class="front bloc_perso">
+			</div>
+			<div class="back bloc_perso flexcol dflexcenter dflexsp-b alignItems">
+				<div class="centert"><h3>{{ liste_utilisateurs[2].nom}} {{liste_utilisateurs[2].prenom }}</h3><h5>Etudiant</h5></div>
+				<fieldset>
+				<legend>Mail de contact :</legend>
+				<a href="mailto:{{ liste_utilisateurs[2].mail}}" class="btn btn-primary">mail</a>
+				</fieldset>
+				</div>
+		</div>
+	</div>
+	<div class="marg10 flip-container">
+		<div class="flipper">
+			<div id="tof4" class="front bloc_perso">
+			</div>
+			<div class="back bloc_perso flexcol dflexcenter dflexsp-b alignItems">
+				<div class="centert"><h3>{{ liste_utilisateurs[3].nom}} {{liste_utilisateurs[3].prenom }}</h3><h5>Etudiant</h5></div>
+				<fieldset>
+				<legend>Mail de contact :</legend>
+				<a href="mailto:{{ liste_utilisateurs[3].mail}}" class="btn btn-primary">mail</a>
+				</fieldset>
+				</div>
+		</div>
+	</div>
+	<div class="marg10 flip-container">
+		<div class="flipper">
+			<div id="tof5" class="front bloc_perso">
+			</div>
+			<div class="back bloc_perso flexcol dflexcenter dflexsp-b alignItems">
+				<div class="centert"><h3>{{ liste_utilisateurs[4].nom}} {{liste_utilisateurs[4].prenom }}</h3><h5>Etudiant</h5></div>
+				<fieldset>
+				<legend>Mail de contact :</legend>
+				<a href="mailto:{{ liste_utilisateurs[4].mail}}" class="btn btn-primary">mail</a>
+				</fieldset>
+				</div>
+		</div>
+	</div>
+	<div class="marg10 flip-container">
+		<div class="flipper">
+			<div id="tof6" class="front bloc_perso">
+			</div>
+			<div class="back bloc_perso flexcol dflexcenter dflexsp-b alignItems">
+				<div class="centert"><h3>{{ liste_utilisateurs[5].nom}} {{liste_utilisateurs[5].prenom }}</h3><h5>Etudiant</h5></div>
+				<fieldset>
+				<legend>Mail de contact :</legend>
+				<a href="mailto:{{ liste_utilisateurs[5].mail}}" class="btn btn-primary">mail</a>
+				</fieldset>
+				</div>
+		</div>
+	</div>
+	<div class="marg10 flip-container">
+		<div class="flipper">
+			<div id="tof7" class="front bloc_perso">
+			</div>
+			<div class="back bloc_perso flexcol dflexcenter dflexsp-b alignItems">
+				<div class="centert"><h3>{{ liste_utilisateurs[6].nom}} {{liste_utilisateurs[6].prenom }}</h3><h5>Etudiant</h5></div>
+				<fieldset>
+				<legend>Mail de contact :</legend>
+				<a href="mailto:{{ liste_utilisateurs[6].mail}}" class="btn btn-primary">mail</a>
+				</fieldset>
+				</div>
+		</div>
+	</div>
+	<div class="marg10 flip-container">
+		<div class="flipper">
+			<div id="tof8" class="front bloc_perso">
+			</div>
+			<div class="back bloc_perso flexcol dflexcenter dflexsp-b alignItems">
+				<div class="centert"><h3>{{ liste_utilisateurs[7].nom}} {{liste_utilisateurs[7].prenom }}</h3><h5>Etudiant</h5></div>
+				<fieldset>
+				<legend>Mail de contact :</legend>
+				<a href="mailto:{{ liste_utilisateurs[7].mail}}" class="btn btn-primary">mail</a>
+				</fieldset>
+				</div>
+		</div>
+	</div>
+	<div class="marg10 flip-container">
+		<div class="flipper">
+			<div id="tof9" class="front bloc_perso">
+			</div>
+			<div class="back bloc_perso flexcol dflexcenter dflexsp-b alignItems">
+				<div class="centert"><h3>{{ liste_utilisateurs[8].nom}} {{liste_utilisateurs[8].prenom }}</h3><h5>Etudiant</h5></div>
+				<fieldset>
+				<legend>Mail de contact :</legend>
+				<a href="mailto:{{ liste_utilisateurs[8].mail}}" class="btn btn-primary">mail</a>
+				</fieldset>
+				</div>
+		</div>
+	</div>
+	<div class="marg10 flip-container">
+		<div class="flipper">
+			<div id="tof10" class="front bloc_perso">
+			</div>
+			<div class="back bloc_perso flexcol dflexcenter dflexsp-b alignItems">
+				<div class="centert"><h3>{{ liste_utilisateurs[9].nom}} {{liste_utilisateurs[9].prenom }}</h3><h5>Etudiant</h5></div>
+				<fieldset>
+				<legend>Mail de contact :</legend>
+				<a href="mailto:{{ liste_utilisateurs[9].mail}}" class="btn btn-primary">mail</a>
+				</fieldset>
+				</div>
+		</div>
+	</div>
+	<div class="marg10 flip-container">
+		<div class="flipper">
+			<div id="tof11" class="front bloc_perso">
+			</div>
+			<div class="back bloc_perso flexcol dflexcenter dflexsp-b alignItems">
+				<div class="centert"><h3>{{ liste_utilisateurs[10].nom}} {{liste_utilisateurs[10].prenom }}</h3><h5>Etudiant</h5></div>
+				<fieldset>
+				<legend>Mail de contact :</legend>
+				<a href="mailto:{{ liste_utilisateurs[10].mail}}" class="btn btn-primary">mail</a>
+				</fieldset>
+				</div>
+		</div>
+	</div>
+	<div class="marg10 flip-container">
+		<div class="flipper">
+			<div id="tof12" class="front bloc_perso">
+			</div>
+			<div class="back bloc_perso flexcol dflexcenter dflexsp-b alignItems">
+				<div class="centert"><h3>{{ liste_utilisateurs[11].nom}} {{liste_utilisateurs[11].prenom }}</h3><h5>Etudiant</h5></div>
+				<fieldset>
+				<legend>Mail de contact :</legend>
+				<a href="mailto:{{ liste_utilisateurs[11].mail}}" class="btn btn-primary">mail</a>
+				</fieldset>
+				</div>
+		</div>
+	</div>
+	<div class="marg10 flip-container">
+		<div class="flipper">
+			<div id="tof13" class="front bloc_perso">
+			</div>
+			<div class="back bloc_perso flexcol dflexcenter dflexsp-b alignItems">
+				<div class="centert"><h3>{{ liste_utilisateurs[12].nom}} {{liste_utilisateurs[12].prenom }}</h3><h5>Etudiant</h5></div>
+				<fieldset>
+				<legend>Mail de contact :</legend>
+				<a href="mailto:{{ liste_utilisateurs[12].mail}}" class="btn btn-primary">mail</a>
+				</fieldset>
+				</div>
+		</div>
+	</div>
+	<div class="marg10 flip-container">
+		<div class="flipper">
+			<div id="tof14" class="front bloc_perso">
+			</div>
+			<div class="back bloc_perso flexcol dflexcenter dflexsp-b alignItems">
+				<div class="centert"><h3>{{ liste_utilisateurs[13].nom}} {{liste_utilisateurs[13].prenom }}</h3><h5>Etudiant</h5></div>
+				<fieldset>
+				<legend>Mail de contact :</legend>
+				<a href="mailto:{{ liste_utilisateurs[13].mail}}" class="btn btn-primary">mail</a>
+				</fieldset>
+				</div>
+		</div>
+	</div>
+	<div class="marg10 flip-container">
+		<div class="flipper">
+			<div id="tof15" class="front bloc_perso">
+			</div>
+			<div class="back bloc_perso flexcol dflexcenter dflexsp-b alignItems">
+				<div class="centert"><h3>{{ liste_utilisateurs[14].nom}} {{liste_utilisateurs[14].prenom }}</h3><h5>Etudiant</h5></div>
+				<fieldset>
+				<legend>Mail de contact :</legend>
+				<a href="mailto:{{ liste_utilisateurs[14].mail}}" class="btn btn-primary">mail</a>
+				</fieldset>
+				</div>
+		</div>
+	</div>
+	<div class="marg10 flip-container">
+		<div class="flipper">
+			<div id="tof16" class="front bloc_perso">
+			</div>
+			<div class="back bloc_perso flexcol dflexcenter dflexsp-b alignItems">
+				<div class="centert"><h3>{{ liste_utilisateurs[15].nom}} {{liste_utilisateurs[15].prenom }}</h3><h5>Etudiant</h5></div>
+				<fieldset>
+				<legend>Mail de contact :</legend>
+				<a href="mailto:{{ liste_utilisateurs[15].mail}}" class="btn btn-primary">mail</a>
+				</fieldset>
+				</div>
+		</div>
+	</div>
+	<div class="marg10 flip-container">
+		<div class="flipper">
+			<div id="tof17" class="front bloc_perso">
+			</div>
+			<div class="back bloc_perso flexcol dflexcenter dflexsp-b alignItems">
+				<div class="centert"><h3>{{ liste_utilisateurs[16].nom}} {{liste_utilisateurs[16].prenom }}</h3><h5>Etudiant</h5></div>
+				<fieldset>
+				<legend>Mail de contact :</legend>
+				<a href="mailto:{{ liste_utilisateurs[16].mail}}" class="btn btn-primary">mail</a>
+				</fieldset>
+				</div>
+		</div>
+	</div>
+	<div class="marg10 flip-container">
+		<div class="flipper">
+			<div id="tof18" class="front bloc_perso">
+			</div>
+			<div class="back bloc_perso flexcol dflexcenter dflexsp-b alignItems">
+				<div class="centert"><h3>{{ liste_utilisateurs[17].nom}} {{liste_utilisateurs[17].prenom }}</h3><h5>Etudiant</h5></div>
+				<fieldset>
+				<legend>Mail de contact :</legend>
+				<a href="mailto:{{ liste_utilisateurs[17].mail}}" class="btn btn-primary">mail</a>
+				</fieldset>
+				</div>
+		</div>
+	</div>
+	<div class="marg10 flip-container">
+		<div class="flipper">
+			<div id="tof19" class="front bloc_perso">
+			</div>
+			<div class="back bloc_perso flexcol dflexcenter dflexsp-b alignItems">
+				<div class="centert"><h3>{{ liste_utilisateurs[18].nom}} {{liste_utilisateurs[18].prenom }}</h3><h5>Etudiant</h5></div>
+				<fieldset>
+				<legend>Mail de contact :</legend>
+				<a href="mailto:{{ liste_utilisateurs[18].mail}}" class="btn btn-primary">mail</a>
+				</fieldset>
+				</div>
+		</div>
+	</div>
+	<div class="marg10 flip-container">
+		<div class="flipper">
+			<div id="tof20" class="front bloc_perso">
+			</div>
+			<div class="back bloc_perso flexcol dflexcenter dflexsp-b alignItems">
+				<div class="centert"><h3>{{ liste_utilisateurs[19].nom}} {{liste_utilisateurs[19].prenom }}</h3><h5>Etudiant</h5></div>
+				<fieldset>
+				<legend>Mail de contact :</legend>
+				<a href="mailto:{{ liste_utilisateurs[19].mail}}" class="btn btn-primary">mail</a>
+				</fieldset>
+				</div>
+		</div>
+	</div>
+	<div class="marg10 flip-container">
+		<div class="flipper">
+			<div id="tof21" class="front bloc_perso">
+			</div>
+			<div class="back bloc_perso flexcol dflexcenter dflexsp-b alignItems">
+				<div class="centert"><h3>{{ liste_utilisateurs[20].nom}} {{liste_utilisateurs[20].prenom }}</h3><h5>Etudiant</h5></div>
+				<fieldset>
+				<legend>Mail de contact :</legend>
+				<a href="mailto:{{ liste_utilisateurs[20].mail}}" class="btn btn-primary">mail</a>
+				</fieldset>
+				</div>
+		</div>
+	</div>
+	<div class="marg10 flip-container">
+		<div class="flipper">
+			<div id="tof22" class="front bloc_perso">
+			</div>
+			<div class="back bloc_perso flexcol dflexcenter dflexsp-b alignItems">
+				<div class="centert"><h3>{{ liste_utilisateurs[21].nom}} {{liste_utilisateurs[21].prenom }}</h3><h5>Etudiant</h5></div>
+				<fieldset>
+				<legend>Mail de contact :</legend>
+				<a href="mailto:{{ liste_utilisateurs[21].mail}}" class="btn btn-primary">mail</a>
+				</fieldset>
+				</div>
+		</div>
+	</div>
+	<div class="marg10 flip-container">
+		<div class="flipper">
+			<div id="tof23" class="front bloc_perso">
+			</div>
+			<div class="back bloc_perso flexcol dflexcenter dflexsp-b alignItems">
+				<div class="centert"><h3>{{ liste_utilisateurs[22].nom}} {{liste_utilisateurs[22].prenom }}</h3><h5>Etudiant</h5></div>
+				<fieldset>
+				<legend>Mail de contact :</legend>
+				<a href="mailto:{{ liste_utilisateurs[22].mail}}" class="btn btn-primary">mail</a>
+				</fieldset>
+				</div>
+		</div>
+	</div>
+	<div class="marg10 flip-container">
+		<div class="flipper">
+			<div id="tof24" class="front bloc_perso">
+			</div>
+			<div class="back bloc_perso flexcol dflexcenter dflexsp-b alignItems">
+				<div class="centert"><h3>{{ liste_utilisateurs[23].nom}} {{liste_utilisateurs[23].prenom }}</h3><h5>Etudiant</h5></div>
+				<fieldset>
+				<legend>Mail de contact :</legend>
+				<a href="mailto:{{ liste_utilisateurs[23].mail}}" class="btn btn-primary">mail</a>
+				</fieldset>
+				</div>
+		</div>
+	</div>
+	<div class="marg10 flip-container">
+		<div class="flipper">
+			<div id="tof25" class="front bloc_perso">
+			</div>
+			<div class="back bloc_perso flexcol dflexcenter dflexsp-b alignItems">
+				<div class="centert"><h3>{{ liste_utilisateurs[24].nom}} {{liste_utilisateurs[24].prenom }}</h3><h5>Etudiant</h5></div>
+				<fieldset>
+				<legend>Mail de contact :</legend>
+				<a href="mailto:{{ liste_utilisateurs[24].mail}}" class="btn btn-primary">mail</a>
+				</fieldset>
+				</div>
+		</div>
+	</div>
+
+</div>
+<div class="footer dflexcenter h50p alignItems">
+		<div class="">Copyright Lannurien Voctor & Poirier Hervé
+</div>
+<script type="text/javascript" src="script/script.js"></script>
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6dbd41d95d9e408d',m:'djLHxZEDM92lFKFZFc6adJ6moAf36QP5xvllQ6pTigk-1644579152-0-Af/WjN4+EZmhMQuasA+X8eTKp19vVntC5Q+Gw6pSKEv3tMMT4nR/QW7sDaB/gXNmcccykRN1tw8EBGIv/ueWEQz0FQ/3GrHWoUjF6CKuReqGpr3yGJddgsg7a+jhAiM0eJALYADRe0MDR+uyvBewIso9OyC9xy5YiI2b0PGfj5qGm7Y8LDiEmSW+EuJL9u2M7Q==',s:[0x78e9d0c676,0x6e1dc2f7d6],}})();</script></body>
+</html>
